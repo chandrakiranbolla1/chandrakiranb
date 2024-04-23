@@ -12,6 +12,14 @@ public class datatypes
         char c = 'B';
 
         boolean b = true;
+        System.out.println(num);
+        System.out.println(by);
+        System.out.println(sh);
+        System.out.println(l);
+        System.out.println(f);
+        System.out.println(d);
+        System.out.println(c);
+        System.out.println(b);
     }
     
 }
