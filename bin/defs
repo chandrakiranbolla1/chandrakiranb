@@ -1,0 +1,3 @@
+class is a user defined blueprint or prototype from which objects are created.
+It represents the set of properties or methods that are all common to all objects of one type.
+uses: using classes you can create multiple objects with the same behaviour instead of writing code multiple times.
