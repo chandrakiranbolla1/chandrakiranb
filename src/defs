@@ -1,3 +1,26 @@
 class is a user defined blueprint or prototype from which objects are created.
 It represents the set of properties or methods that are all common to all objects of one type.
-uses: using classes you can create multiple objects with the same behaviour instead of writing code multiple times.
+uses: using classes you can create multiple objects with the same behaviour instead of writing code multiple.
+
+
+class is a blueprint of objects
+object it is an instanciation of a class
+when a class is defined no memory space is allocated in the menory during the runtime of the class,
+when ever we define the object under the class then instanciation will take place, it means some memory space will be occupied in the class
+during the run-time of the code against the objects as we are going to define under the class.
+Synatax of the class
+class className{
+//Member varibale
+//Member Functions
+}
+
+member variables are there to store the data of the same or different datatypes member functions are what are the different operations that
+we can carryout on those data.
+class will contain member variables and member functions.members can be accessed throughout the entire class and sometimes from the outside of the class.
+
+
+OBJECTS: Objects are the instances of the defined class type.
+when a class is created no memeory is allocated where as when an object is created then memory is allocated.
+we can say that class is an userdefined datatypes and objects are the variables of that type.
+in JAVA we need to initalize the object with the keyword 'new'
+SYNATX: className objectName = newclassName();
