@@ -1,3 +1,5 @@
+import Gat.*;
+
 class C
 {
     public C()
@@ -19,5 +21,7 @@ public class Anonymous {
         new C();  // This is to create an Anonymous object
         new C().show();  // and this is to call both objects and its methods
 
+        B1 obj = new B1();
+        System.out.println(obj.B1(" "));
     }
 }
