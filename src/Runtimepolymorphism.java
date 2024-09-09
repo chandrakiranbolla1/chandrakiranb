@@ -45,7 +45,7 @@ public class Runtimepolymorphism
         X obj = new X();
         obj.show();
 
-        //here we dont know which one is going to be printed
+        //here we don't know which one is going to be printed
         //so this is known as Run-Time ploymorphism
         obj = new Y();
         obj.show();
