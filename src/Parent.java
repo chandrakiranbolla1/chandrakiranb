@@ -4,7 +4,7 @@ class Parent {
     }
 }
 
-class Child1 extends Parent{
+class Child1 extends Parent1 {
     public String ChildTree(String ChildTree){
         return ChildTree;
     }
