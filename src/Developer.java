@@ -1,18 +1,17 @@
-abstract class Computer1
+interface Computer1
 {
-    public abstract void code();
-
+     void code();
 }
 
 
-class Laptop1 extends Computer1
+class Laptop1 implements Computer1
 {
     public void code(){
         System.out.println("code,compile,run");
     }
 }
 
-class Desktop extends Computer1
+class Desktop implements Computer1
 {
     public void code()
     {
@@ -27,9 +26,6 @@ class dev
         lap.code();
     }
 }
-
-
-
 
 public class Developer {
     public static void main(String[] args) {
