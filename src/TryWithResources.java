@@ -9,9 +9,9 @@ public class TryWithResources {
         BufferedReader br = null;
 
         try {
-           InputStreamReader in = new InputStreamReader(System.in);
-           br = new BufferedReader(in);
-            System.out.println(num);
+
+           br = new BufferedReader(new InputStreamReader(System.in));
+           System.out.println(num);
         }
         finally {
             br.close();
