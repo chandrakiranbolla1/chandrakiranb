@@ -3,6 +3,11 @@ class Hi extends Thread{
         for (int i = 0;i<10;i++)
         {
             System.out.println("Hi");
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }
@@ -12,7 +17,13 @@ class Hello extends Thread{
         for (int i=0;i<10;i++)
         {
             System.out.println("Hello");
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
+
     }
 }
 
